@@ -1,0 +1,29 @@
+{
+  "site": {
+    "title": "myTrivia",
+    "base_url": "https://cpro95.github.io/mytrivia",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "",
+    "logo_width": "200",
+    "logo_height": "34",
+    "logo_text": "myTrivia"
+  },
+
+  "settings": {
+    "pagination": 5,
+    "summary_length": 100
+  },
+
+  "metadata": {
+    "meta_author": "myTrivia",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "myTrivia"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "Copyright © 2024"
+  }
+}
