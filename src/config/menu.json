@@ -2,29 +2,29 @@
   "main": [
     {
       "name": "Home",
-      "url": "/"
+      "url": "/mytrivia"
     },
     {
       "name": "Categories",
-      "url": "/categories"
+      "url": "/mytrivia/categories"
     },
     {
       "name": "Tags",
-      "url": "/tags"
+      "url": "/mytrivia/tags"
     }
   ],
   "footer": [
     {
       "name": "Home",
-      "url": "/"
+      "url": "/mytrivia/"
     },
     {
       "name": "Categories",
-      "url": "/categories"
+      "url": "/mytrivia/categories"
     },
     {
       "name": "Tags",
-      "url": "/tags"
+      "url": "/mytrivia/tags"
     }
   ]
 }

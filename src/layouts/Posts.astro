@@ -16,7 +16,7 @@ const { className, posts, fluid } = Astro.props;
       <div class={i === 0 && fluid != false ? "col-12" : "col-12 sm:col-6"}>
         {post.data.image && (
           <a
-            href={`/${post.slug}`}
+            href={`${config.site.base_path}/${post.slug}`}
             class="rounded-lg block hover:text-primary overflow-hidden group"
           >
             <Image
@@ -40,7 +40,7 @@ const { className, posts, fluid } = Astro.props;
                 {post.data.categories.map((category: string, i: number) => (
                   <li class="inline-block">
                     <a
-                      href={`/categories/${slugify(category)}`}
+                      href={`${config.site.base_path}/categories/${slugify(category)}`}
                       class="mr-2 hover:text-primary font-medium"
                     >
                       {humanize(category)}
@@ -54,7 +54,7 @@ const { className, posts, fluid } = Astro.props;
         </ul>
         <h3 class="mb-4">
           <a
-            href={`/${post.slug}`}
+            href={`${config.site.base_path}/${post.slug}`}
             class="block hover:text-primary transition duration-300"
           >
             {post.data.title}
