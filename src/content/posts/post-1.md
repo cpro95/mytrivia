@@ -8,9 +8,7 @@ tags: ["greetings", "hello"]
 draft: false
 ---
 
-# 새로운 블로그 개설
-
-## **인사말:**
+**인사말:**
 
 안녕하세요!
 
